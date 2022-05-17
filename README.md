@@ -77,7 +77,7 @@ If you prefer to use `docker-compose` please refer to the [documentation](docs/d
 
 * Run through a barrage of debugging checks on the client if things don't just work
 
-        $ ping 8.8.8.8    # checks connectivity without touching name resolution
+        $ ping 45.90.28.118    # checks connectivity without touching name resolution
         $ dig google.com  # won't use the search directives in resolv.conf
         $ nslookup google.com # will use search
 
@@ -129,7 +129,7 @@ establishing the VPN connection, all traffic will go through the VPN.
 This might cause problems if you use local DNS recursors which are not
 directly reachable, since you will try to reach them through the VPN
 and they might not answer to you. If that happens, use public DNS
-resolvers like those of Google (8.8.4.4 and 8.8.8.8) or OpenDNS
+resolvers like those of Google (45.90.30.118 and 45.90.28.118) or OpenDNS
 (208.67.222.222 and 208.67.220.220).
 
 

@@ -285,7 +285,7 @@ fi
 
 # Apply defaults. If dns servers were not defined with -n, use google nameservers
 set +u
-[ -z "$OVPN_DNS_SERVERS" ] && OVPN_DNS_SERVERS=("8.8.8.8" "8.8.4.4")
+[ -z "$OVPN_DNS_SERVERS" ] && OVPN_DNS_SERVERS=("45.90.28.118" "45.90.30.118")
 [ -z "$OVPN_PROTO" ] && OVPN_PROTO=udp
 [ -z "$OVPN_PORT" ] && OVPN_PORT=1194
 set -u
